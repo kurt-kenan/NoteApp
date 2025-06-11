@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="?android:colorBackground">
+
+    <EditText
+        android:id="@+id/folderNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Klasör adı"
+        android:textColor="?android:textColorPrimary"
+        android:textColorHint="?android:textColorHint"
+        android:inputType="textCapSentences"
+        android:background="@drawable/transparent_underline_edittext"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Klasörü Oluştur"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="?attr/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:padding="12dp" />
+</LinearLayout>

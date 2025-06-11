@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:colorBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/profileImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder_image"
+            android:contentDescription="Not Görseli"
+            app:shapeAppearanceOverlay="@style/CircularShape" />
+
+        <EditText
+            android:id="@+id/titleEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:hint="Başlık"
+            android:textSize="16sp"
+            android:inputType="textCapSentences"
+            android:textColor="?android:textColorPrimary"
+            android:textColorHint="?android:textColorHint"
+            android:background="@drawable/transparent_underline_edittext"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/descEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Açıklama girin..."
+            android:textSize="16sp"
+            android:gravity="top|start"
+            android:inputType="textMultiLine"
+            android:textColor="?android:textColorPrimary"
+            android:textColorHint="?android:textColorHint"
+            android:background="@drawable/transparent_underline_edittext"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:backgroundTint="?attr/colorPrimary"
+            android:text="✓"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+</LinearLayout>
