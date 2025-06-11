@@ -1,34 +1,41 @@
-# 📝 NoteApp – Basit Not ve Klasör Yönetimi
+# 📝 NoteApp – Notlarınızı Düzenleyin / Manage Your Notes Easily
 
-Android için geliştirilmiş sade ve işlevsel bir not uygulamasıdır.  
-Kullanıcılar not ekleyebilir, düzenleyebilir, silebilir ve klasörler oluşturup notlarını organize edebilir.
+**TR:** Basit ve işlevsel bir Android not uygulaması.  
+**EN:** A simple yet powerful Android note-taking application.
 
-## 🚀 Özellikler
+---
 
-- 📌 Not ekleme, düzenleme, silme
-- 📁 Klasör oluşturma ve notları taşıma
-- 🖼 Görsel destekli notlar (galeriden seçim + kırpma)
-- 🧩 ViewBinding ve modern Android mimarisi
-- 🌙 Karanlık tema uyumu
-- 💾 SharedPreferences ile veri kalıcılığı
-- ♻️ RecyclerView + GridLayout ile dinamik görünüm
-- 📦 `Parcelable` model yapısı ile hızlı veri aktarımı
+## 🚀 Özellikler / Features
 
-## 🖼 Ekran Görüntüleri
+- 📌 Not ekleme, silme, düzenleme  
+  📌 Add, delete, and edit notes
+- 📁 Klasör oluşturma, not taşıma  
+  📁 Create folders and move notes between them
+- 🖼 Görsel destekli notlar (galeri + kırpma)  
+  🖼 Image support with cropping
+- 🌓 Karanlık ve aydınlık tema uyumu  
+  🌓 Dark & light theme support
+- 💾 SharedPreferences ile veri saklama  
+  💾 Data stored via SharedPreferences
+- 🔄 ViewBinding, Parcelable model yapısı  
+  🔄 ViewBinding & Parcelable models
+
+---
 
 
-
-## 🔧 Kullanılan Teknolojiler
+## 🧱 Kullanılan Teknolojiler / Built With
 
 - Kotlin
 - Android SDK
 - ViewBinding
-- UCrop
-- Gson
-- RecyclerView
+- UCrop (for image cropping)
+- Gson (for JSON serialization)
+- RecyclerView + GridLayout
 - SharedPreferences
 
-## 📂 Proje Yapısı
+---
+
+## 🛠️ Proje Yapısı / Project Structure
 
 ```bash
 ├── MainActivity.kt
@@ -38,14 +45,8 @@ Kullanıcılar not ekleyebilir, düzenleyebilir, silebilir ve klasörler oluştu
 ├── FolderDetailActivity.kt
 ├── NotesAdapter.kt
 ├── Prefs.kt
-├── model/
-│   ├── Note.kt
-│   └── Folder.kt
 ├── res/layout/
 │   ├── activity_main.xml
 │   ├── activity_add_note.xml
-│   ├── activity_create_folder.xml
-│   ├── activity_choose_folder.xml
-│   ├── activity_folder_detail.xml
 │   ├── item_note.xml
-│   └── item_folder.xml
+│   └── ...
