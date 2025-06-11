@@ -16,7 +16,7 @@ Kullanıcılar not ekleyebilir, düzenleyebilir, silebilir ve klasörler oluştu
 
 ## 🖼 Ekran Görüntüleri
 
-> *(İsteğe bağlı: uygulamadan ekran görüntüleri ekle)*
+
 
 ## 🔧 Kullanılan Teknolojiler
 
