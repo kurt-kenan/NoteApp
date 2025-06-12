@@ -35,6 +35,14 @@
 
 ---
 
+🖼 Ekran Görüntüleri / Screenshots
+
+![Home Screen](home.png)
+![Folder](folder.png)
+![Note](note.png)
+
+---
+
 ## 🛠️ Proje Yapısı / Project Structure
 
 ```bash
