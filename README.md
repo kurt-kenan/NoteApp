@@ -37,9 +37,9 @@
 
 🖼 Ekran Görüntüleri / Screenshots
 
-![Home Screen](home.png)
-![Folder](folder.png)
-![Note](note.png)
+![Home Screen](home.jpg)
+![Folder](folder.jpg)
+![Note](note.jpg)
 
 ---
 
