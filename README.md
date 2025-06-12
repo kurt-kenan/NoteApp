@@ -36,11 +36,12 @@
 ---
 
 🖼 Ekran Görüntüleri / Screenshots
-
-![Home Screen](home.jpg)
-![Folder](folder.jpg)
-![Note](note.jpg)
-
+🏠 Ana Sayfa / Home Screen
+<img src="home.png" alt="Home Screen" width="300"/>
+📁 Klasörler / Folders
+<img src="folder.png" alt="Folder Screen" width="300"/>
+📝 Not Ekleme / Add Note
+<img src="note.png" alt="Note Screen" width="300"/>
 ---
 
 ## 🛠️ Proje Yapısı / Project Structure
